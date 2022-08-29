@@ -25,9 +25,9 @@ ___________________
 
 * **Logos GUARANI:**  
 ```
-https://github.com/ilgneer/Guarani-Project/blob/main/src/assets/images/logo1.png
-https://github.com/ilgneer/Guarani-Project/blob/main/src/assets/images/logo2.png
-https://github.com/ilgneer/Guarani-Project/blob/main/src/assets/images/logo3.png
+https://raw.githubusercontent.com/ilgneer/Guarani-Project/main/src/assets/images/logo1.png
+https://raw.githubusercontent.com/ilgneer/Guarani-Project/main/src/assets/images/logo2.png
+https://raw.githubusercontent.com/ilgneer/Guarani-Project/main/src/assets/images/logo3.png
 ```
 
 * **Menu Mobile:**
