@@ -1,4 +1,4 @@
-# Projeto Plataforma Guarani 🟢
+# Projeto Plataforma Guarani 🟢🏹
 
 Nesse repositório você vai encontrar variáveis CSS, mocks de APIs e arquivos de imagens necessários para a implementação do frontend.
 
