@@ -1,5 +1,6 @@
 :root {
   --color-background:#F3F3F3;
+<<<<<<< HEAD
   --color-background-nav:#0D2E1D;
   --color-background-home:#184318;
   --color-text-light:#EDEDED;
@@ -49,3 +50,11 @@ main {
   display: flex;
 }
 
+=======
+  --color-background-nav:#009245;
+  --color-background-home:#344960;
+  --color-text-light:#EDEDED;
+  --color-text-title:#F7931E;
+  --color-text-dark:#333232;
+}
+>>>>>>> 0da036b56ee0f0a78ecc1b7797ca770f7839c11f
