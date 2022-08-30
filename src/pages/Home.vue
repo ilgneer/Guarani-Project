@@ -11,6 +11,30 @@
       </p>
     </div>
 
+  <v-app id="inspire">
+    <v-card
+      class="mx-auto"
+      max-width="200"
+    >
+      <v-img
+        class="white--text align-end"
+        height="100px"
+        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      >
+        <v-card-title>Projetos</v-card-title>
+      </v-img>
+
+      <v-card-actions>
+        <v-btn
+          color="orange"
+          text
+        >
+          Ver sobre
+        </v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-app>
+
   </main>
 </template>
 
@@ -46,5 +70,12 @@ export default {
   .text-top:hover {
     opacity: 0.8;
   }
+
+  #inspire {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
 
 </style>
