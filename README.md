@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-# guarani
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # Projeto Plataforma Guarani 🟢🏹
 
 Nesse repositório você vai encontrar variáveis CSS, mocks de APIs e arquivos de imagens necessários para a implementação do frontend.
@@ -83,4 +52,3 @@ A partir dessa URL teremos os seguintes recursos:
 * **Contatos** `GET /contacts.json`
 
 ___________________
->>>>>>> 0da036b56ee0f0a78ecc1b7797ca770f7839c11f
