@@ -1,22 +1,22 @@
 :root {
-  --color-background:#F3F3F3;
-  --color-background-nav:#0D2E1D;
-  --color-background-home:#184318;
-  --color-text-light:#EDEDED;
-  --color-text-title:#F7931E;
-  --color-text-dark:#333232;
+  --color-background: #f3f3f3;
+  --color-background-nav: #0d2e1d;
+  --color-background-home: #184318;
+  --color-text-light: #ededed;
+  --color-text-title: #f7931e;
+  --color-text-dark: #333232;
 }
 
 @font-face {
   font-family: 'MontserratAlternatesMedium';
   src: url('/fonts/MontserratAlternatesMedium.eot');
   src: url('/fonts/MontserratAlternatesMedium.eot') format('embedded-opentype'),
-       url('/fonts/MontserratAlternatesMedium.woff2') format('woff2'),
-       url('/fonts/MontserratAlternatesMedium.woff') format('woff'),
-       url('/fonts/MontserratAlternatesMedium.ttf') format('truetype'),
-       url('/fonts/MontserratAlternatesMedium.svg#MontserratAlternatesMedium') format('svg');
+    url('/fonts/MontserratAlternatesMedium.woff2') format('woff2'),
+    url('/fonts/MontserratAlternatesMedium.woff') format('woff'),
+    url('/fonts/MontserratAlternatesMedium.ttf') format('truetype'),
+    url('/fonts/MontserratAlternatesMedium.svg#MontserratAlternatesMedium')
+      format('svg');
 }
-
 
 * {
   padding: 0;
@@ -27,7 +27,7 @@
 
 html,
 body {
-  background-color: var(--color-background);
+  background-color: var(--color-background-);
 }
 
 a {

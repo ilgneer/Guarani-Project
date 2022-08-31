@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -15,11 +15,11 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
 
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -33,11 +33,11 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
 
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -51,11 +51,11 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
 
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -69,11 +69,11 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
 
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -87,11 +87,11 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
 
     <div>
-  <v-app>
+      <v-app>
         <v-card class="mx-auto" max-width="200">
           <v-img
             class="white--text align-end"
@@ -105,26 +105,22 @@
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
-  </v-app>
+      </v-app>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'CardsComp',
-  props: {
-    CardsComp: String
-  }
+  name: 'CardsComp'
 }
 </script>
 
 <style scoped>
-
-
 .container {
   width: 100%;
-  margin-top: 110px;
+  /* Antes era 110px em top */
+  margin-top: 210px;
   display: grid;
   /* aqui eu determino é são 3 colunas de tamanhos iguas, cada coluna tem uma fração */
   grid-template-columns: repeat(3, 1fr);
@@ -134,22 +130,17 @@ export default {
   grid-gap: 5px 8px;
   /* margem interna que afasta os elementos da borda do grid */
   padding: 20px 10px;
-
 }
 
 .theme--light.v-application {
   background: var(--background-color);
 }
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .container {
-      margin-top: 150px;
-      grid-template-columns: 100%;
-      width: 100%;
-
-    }
-
+    margin-top: 150px;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
 }
-
 </style>
