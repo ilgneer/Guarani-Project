@@ -3,6 +3,7 @@
 
     <HeaderComp/>
     <HomePage/>
+    
 
   </div>
 </template>
@@ -17,7 +18,7 @@ export default {
   name: 'App',
   components: {
     HeaderComp,
-    HomePage
+    HomePage,
   }
 }
 </script>

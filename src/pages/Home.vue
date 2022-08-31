@@ -20,9 +20,12 @@
       </p>
     </div>
 
-    <v-app id="inspire">
+
+      <CardsComp/>
+
+    <!-- <v-app id="inspire">
       <div class="content">
-        <v-card class="mx-auto" max-width="200" v-for="i in 3" :key="i">
+        <v-card class="mx-auto" max-width="200" v-for="i in 3" :key="i" >
           <v-img
             class="white--text align-end"
             height="100px"
@@ -38,7 +41,7 @@
       </div>
 
       <div class="content">
-        <v-card class="mx-auto" max-width="200" v-for="i in 3" :key="i">
+        <v-card class="mx-auto" max-width="200" v-for="i in 3" :key="i" >
           <v-img
             class="white--text align-end"
             height="100px"
@@ -46,20 +49,26 @@
           >
             <v-card-title>Projetos</v-card-title>
           </v-img>
-
           <v-card-actions>
             <v-btn color="orange" text> Ver sobre </v-btn>
           </v-card-actions>
         </v-card>
       </div>
-    </v-app>
+    </v-app> -->
+    
   </main>
 </template>
 
 <script>
+
+import CardsComp from '../components/Cards.vue'
+
 export default {
   name: "HomePage",
-};
+  components: {
+    CardsComp,
+}
+}
 </script>
 
 <style scoped>
@@ -88,7 +97,7 @@ main {
   opacity: 0.8;
 }
 
-#inspire {
+/* #inspire {
   padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -99,5 +108,16 @@ main {
   margin: 2rem auto;
   display: flex;
   justify-content: space-between;
-}
+} */
+
+@media screen and (max-width: 700px){
+  .div-home,
+  .text-top,
+  .logo-home {
+    width: 100%;
+    padding: 0%;
+  }
+  }
+
+
 </style>
