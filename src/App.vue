@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp />
-    <HomePage />
+    <router-view path="$router.key" />
     <FooterComp />
   </div>
 </template>
@@ -11,14 +11,13 @@ import './styles/global.css'
 
 import HeaderComp from './components/Header.vue'
 import FooterComp from './components/Footer.vue'
-import HomePage from './pages/Home.vue'
+
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    HomePage,
-    FooterComp
+    FooterComp,
   }
 }
 </script>

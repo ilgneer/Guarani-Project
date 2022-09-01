@@ -74,7 +74,7 @@ export default {
 
 @media screen and (max-width: 700px) {
   .rodape {
-    margin-top: 190vh;
+    margin-top: 170vh; /*era 190 antes */
     width: 100%;
   }
 }
